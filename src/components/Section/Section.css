@@ -1,0 +1,19 @@
+.section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.section .header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border: 2px solid var(--grey);
+  color: var(--grey);
+  padding: 0 16px;
+}
+.section .text{
+  padding: 16px;
+  /* display: none; */
+}
