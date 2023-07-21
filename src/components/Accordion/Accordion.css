@@ -1,9 +1,16 @@
-.section{
-  width: 100%;
+.accordion {
+  width: 375px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: var(--red-dark);
+  color: var(--white);
+  padding: 8px;
+  border-radius: 5px;
 }
-.section .header{
+
+.accordion .header {
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -14,11 +21,19 @@
   color: var(--grey);
   padding: 0 16px;
 }
-.section .text{
-  padding: 16px;
-  /* display: none; */
+
+.accordion-section {
+  width: 100%;
 }
-.section .toggle-button{
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.accordion-section.active .accordion-content {
+  display: block;
+}
+.accordion .toggle-button {
   font-size: 1.2rem;
   padding: 6px;
   border: none;
@@ -26,6 +41,6 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.section .toggle-button:hover{
+.accordion .toggle-button:hover {
   font-size: 1.3rem;
 }
