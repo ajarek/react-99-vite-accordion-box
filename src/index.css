@@ -28,6 +28,7 @@
 }
 body {
   font-family: 'Open+Sans', sans-serif;
+  background-color: var(--grey);
 }
 #root {
   max-width: 1440px;
@@ -37,17 +38,18 @@ body {
   align-items: center;
   justify-content: center;
 }
-.app-wrapper{
+.app-wrapper {
   width: 375px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--red-dark);
   color: var(--white);
   padding: 8px;
-display: flex;
-flex-direction: column;
-align-items: center;
+  border-radius: 5px;
 }
-.app-wrapper h1{
+.app-wrapper h1 {
   font-weight: 500;
   margin: 16px 0;
 }
