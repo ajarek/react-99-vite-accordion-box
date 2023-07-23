@@ -44,3 +44,8 @@
 .accordion .toggle-button:hover {
   font-size: 1.3rem;
 }
+@media (max-width: 374px) {
+  .accordion {
+    width: 100vw;
+  }
+}

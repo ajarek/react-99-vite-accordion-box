@@ -1,17 +1,17 @@
 [
   {
-    "id":"1",
-    "title":"Section Title One",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro libero alias rem voluptatibus at dolor. Velit ad quos quisquam illo!"
+    "id": "1",
+    "title": "Section Title One",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro libero alias rem voluptatibus at dolor. Velit ad quos quisquam illo!"
   },
   {
-    "id":"2",
-    "title":"Section Title Two",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro libero alias rem voluptatibus at dolor. Velit ad quos quisquam illo!"
+    "id": "2",
+    "title": "Section Title Two",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro libero alias rem voluptatibus at dolor. Velit ad quos quisquam illo!"
   },
   {
-    "id":"3",
-    "title":"Section Title Three",
-    "text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro libero alias rem voluptatibus at dolor. Velit ad quos quisquam illo!"
+    "id": "3",
+    "title": "Section Title Three",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro libero alias rem voluptatibus at dolor. Velit ad quos quisquam illo!"
   }
 ]
